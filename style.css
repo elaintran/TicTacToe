@@ -1,0 +1,20 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+/*x color: #e44b4b;
+o color: #4bb0e4;*/
+
+.grid {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.tile {
+	display: inline-block;
+	background-color: black;
+	height: 20px;
+	width: 20px;
+}
