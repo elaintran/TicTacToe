@@ -6,14 +6,20 @@ html, body {
 /*x color: #e44b4b;
 o color: #4bb0e4;*/
 
+.container {
+	display: flex;
+	align-items: center;
+}
+
 .grid {
 	display: grid;
-	grid-template-columns: 100px 100px 100px;
+	grid-template-columns: 150px 150px 150px;
+	margin: auto;
 }
 
 .tile {
 	display: inline-block;
 	border: 1px solid black;
-	height: 20px;
-	width: 20px;
+	height: 150px;
+	width: 150px;
 }
